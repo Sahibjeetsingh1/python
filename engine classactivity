@@ -1,0 +1,24 @@
+class Engine:
+    def __init__(self, name, type):
+        self.name = name
+        self.type = type
+
+    def model(self):
+        print("Your engine model is: 2016")
+
+    def horsepower(self):
+        print("You horsepower is: 15000")
+
+class Charging(Engine):
+    def __init__(self, name, type, turbos ):
+        self.name = name
+        self.type = type
+        self.turbos = turbos
+
+    def company(self):
+        print(" your engine have this much turbo: " + str(self.turbos))
+
+e1 = Charging('ford', 'family', 1)
+e1.model()
+e1.horsepower()
+e1.company()
