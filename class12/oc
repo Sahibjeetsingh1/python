@@ -1,0 +1,75 @@
+'''
+#list starts from zero like 1 is zero, 5 is first no.
+mylist=[1, 5, 12, 2, 90, 87, 45]
+
+mylist.append(100)   #insert 100 also
+print(mylist)
+
+mylist.pop(0) #delete ist no. (1) will delete 2nd no.
+print(mylist)
+
+fruits = ['apple','orange','banana']
+animals= ['tiger','lion','giraff','mouse']
+combo= fruits+animals
+
+print(combo)
+
+
+otherlist = mylist * 2
+
+print(otherlist)
+
+result = 100 in otherlist
+print(result)
+
+for i in mylist:
+    print(str(i))
+selectedElements = otherlist[0:10:2]
+
+print(selectedElements)
+
+elems = (otherlist[5])
+print(elems)
+
+print(otherlist[7])
+
+indexofninety = otherlist.index(90)
+print(indexofninety)
+
+otherlist.reverse()
+
+print(otherlist)
+
+
+
+import circle
+c1 = circle(2)
+c2 = circle(3)
+c3 = circle(4)
+c4 =
+circles = [c1, c2, c3, c4]
+
+counter = 1
+for c in randomcircles:
+
+#develop a function that acepts a sring and breaks it down onto a array
+
+def stringbreaker(astring):
+    result = list(astring)
+    return result
+
+t = stringBreaker("ABCDE")
+for i in t:
+        print(i)
+'''
+
+string1 = "ABCDE"
+string2 = "01234"
+
+def stringbreaker(string1):
+    result = list(string1)
+    return (result)
+t = stringbreaker(string1)
+for i in t
+    print(t)
+
